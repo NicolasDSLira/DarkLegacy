@@ -28,4 +28,10 @@ main{
     font-family: 'Finger Paint', cursive;
 }
 
+@media (max-width:800px){
+    .div-creditos{
+        width: 300px;
+    }
+}
+
 
