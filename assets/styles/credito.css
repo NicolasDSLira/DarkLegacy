@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Sarala:wght@400;700&display=swap');
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-creditos{
+    display: block;
+    margin: 1rem;
+    width: 400px;
+    height: 150px;
+}
+
+.div-creditos h3{
+    font-family: 'Finger Paint', cursive;
+    font-size: 30pt;
+    text-align: center;
+    font-weight: bolder;
+    margin: 1rem;
+}
+
+.div-creditos p{
+    text-align: center;
+    font-size: 16pt;
+    font-family: 'Finger Paint', cursive;
+}
+
+

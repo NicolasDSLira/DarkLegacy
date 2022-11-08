@@ -1,0 +1,17 @@
+.organizacoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.organizacoes img{
+    width: 50%;
+    margin: 2rem 1rem;
+}
+
+@media (max-width:900px){
+    .organizacoes img{
+        width: 75%;
+    }
+}
