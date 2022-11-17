@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Sarala:wght@400;700&display=swap');
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .div-creditos{
     display: block;
     margin: 1rem;

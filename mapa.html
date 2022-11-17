@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAPA DARK LEGACY</title>
+    <link rel="stylesheet" href="./assets/styles/globals.css">
+    <link rel="stylesheet" href="./assets/styles/mapa.css">
+    <link rel="shortcut icon" href="./public/Logo.png" type="image/x-icon">
+</head>
+<body>
+
+    <nav class="navbar fixed-top">
+        <div class="title-navbar">
+          <h2>Dark Legacy</h2>
+        </div>
+        <button class="btn active-colapsed" id="btn-navbar">
+          <span class="hamburguer ht"></span>
+          <span class="hamburguer hc"></span>
+          <span class="hamburguer hb"></span>
+        </button>
+        <div class="container-navbar colapsed-none" id="colapsed-menu">
+          <a href="./index.html" class="link-navbar ">Home</a>
+          <a href="./organizacoes.html" class="link-navbar">Organizações</a>
+          <a href="./mapa.html" class="link-navbar active-navbar">Mapa</a>
+          <a href="./poder.html" class="link-navbar">Poderes</a>
+          <a href="./poder.html#sub" class="link-navbar">Sub-Poder</a>
+          <a onclick="alert('Em desenvolvimento')" class="link-navbar">Dark News Legacy</a>
+          <a href="./creditos.html" class="link-navbar">Créditos</a>
+        </div>
+    </nav>
+
+    <main>
+      <h1 class="title-page">Cidade de Nova York</h1>
+        <div class="mapa-principal">
+          <img src="./public/mapa/Mapa-NewYork.png" alt="Mapa"  aria-label="Mapa" usemap="#map">          
+          <legend>Mapa da cidade de Nova York e seus distrítos. </legend>
+        </div>
+
+        <div class="container">
+          <div class="location l-manhattan manhattan">
+            <h2 class="name-distr manhattan">Manhattan</h2>
+            <div class="item-mapa">
+              <img src="./public/mapa/MANHATTAN-BRIDGE.jpg" alt="Manhattan Bridge" class="mapa-conteudo">
+              <legend>Ponte de Manhattan</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/CENTRAL-PARK.jpg" class="mapa-conteudo" alt="Central Park">
+              <legend>Central Park</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/SEDE-ONU.jpg" class="mapa-conteudo" alt="Sede ONU">
+              <legend>Sede das Nações Unidas</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/EMPIRE-STATE.jpg" class="mapa-conteudo" alt="Empire State">
+              <legend>Empire State</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/CHINATOWN.webp" class="mapa-conteudo" alt="Chinatown">
+              <legend>Chinatown</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/GRAND-CENTRAL-STATION.jpg" alt="Grand Central Station" class="mapa-conteudo">
+              <legend>Grand Station Center</legend>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="location l-Queens Queens">
+            <h2 class="name-distr Queens">Queens</h2>
+            <div class="item-mapa">
+              <img src="./public/mapa/LaGuardian.jpg" alt="La Guardian" class="mapa-conteudo">
+              <legend>Aeroporto</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/QueensMuseum.jpg" alt="Queens Museum" class="mapa-conteudo">
+              <legend>Queens Museum</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/RESORT-WORLD-CASINO-NY.jpg" alt="Resort World New York" class="mapa-conteudo">
+              <legend>Resorts World</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/FLOREST-HILLS-HIGH-SCHOOL.png" alt="Florest Hills High School" class="mapa-conteudo">
+              <legend>Florest Hills School</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/Calvary-cemetery.jpg" alt="Calvary Cemetery" class="mapa-conteudo">
+              <legend>Calvary Cemetery</legend>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="location l-Brooklyn Brooklyn">
+            <h2 class="name-distr Brooklyn">Brooklyn</h2>
+            <div class="item-mapa">
+              <img src="./public/mapa/Brooklyn/williamsburg-art-and-historical-center.jpg" alt="Williamsburg Art And Historical Center" class="mapa-conteudo">
+              <legend>Williamsburg</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/Brooklyn/WEEKSVILE.jpg" alt="Weeksvile Heritage Center" class="mapa-conteudo">
+              <legend>Weeksvile</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/Brooklyn/Brooklyn-Museum.jpg" alt="Brooklyn Museum" class="mapa-conteudo">
+              <legend>Brooklyn Museum</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/Brooklyn/Brooklyn-Bridge-park.jpg" alt="Parque da ponte do Brooklyn" class="mapa-conteudo">
+              <legend>Brooklyn Bridge</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/Brooklyn/East-New-York.jpg" alt="Leste do Brooklyn" class="mapa-conteudo">
+              <legend>East Brooklyn</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/Brooklyn/Zona-sul.webp" alt="Zona Sul" class="mapa-conteudo">
+              <legend>south Brooklyn</legend>
+            </div>
+            <div class="item-mapa">
+              <img src="./public/mapa/Brooklyn/Entrada-zona-industrial.webp" alt="Entrada zona Industrial" class="mapa-conteudo">
+              <legend>industrial zone</legend>
+            </div>
+            <div class="item-mapa">
+              <img onclick="alert('Vai toma no cu')" src="./public/mapa/Brooklyn/Under-Sky.webp" alt="Click" class="mapa-conteudo">
+              <legend>CLICK</legend>
+            </div>
+          </div>
+        </div>
+
+        
+
+    </main>
+
+    
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script src="./assets/scripts/navbar.js"></script>
+<script src="./assets/scripts/mapa.js"></script>
+</html>
